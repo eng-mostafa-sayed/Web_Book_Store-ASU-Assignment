@@ -1,0 +1,154 @@
+    <!doctype html>
+    <html>
+        <head>
+           
+          <title>developer application</title>
+          
+          <style>
+          /*.h3 {color:aqua;background:#000;text-align:center;font-family:arial;}*/
+          .choose{color:red;font-family:bold;font-size:30px}
+          fieldset {background:#fff;border:1px solid:#ccc;padding:10px;margin-bottom:20px;font-size:18px}
+          .message {color:darkred;font-family:sans-serif;font-size:25px}
+          /*label {display:block}*/
+          legend {background:#fff;padding:5px;border:1px solid#ccc;font-size:20px}
+          .input1 {margin-bottom:10px;padding:8px;width:150px}
+          .input2 {margin-bottom:10px;padding:8px;width:150px}
+          textarea {width:400px;height:200px}
+          .notice1 {color:darkorchid}
+          .legend1 {color:blue}
+          select{padding:3px;color:;font-size:18px}
+          hr {border:1px solid#efefef}
+          .h {color:deeppink;font-size:19px;font-family:bold;background:#efefef}
+          </style>
+          
+          <script>alert ("hello in our page");
+          function send(){alert("Admin Will Contact You Soon Thanks For Your join")};
+          
+          </script>
+        </head>
+        
+        <body bgcolor="#efefef" font-style="arial">
+            <form>
+            <fieldset><legend class="legend1">personal information</legend>
+                <label>First name </label>
+                <input class="input1"type="text" placeholder="your first name"fname="name"maxlength="15" >
+                <label>Last name </label>
+                <input class="input1"type="text" placeholder="your last name"lname="name"maxlength="15" >    
+               <br>
+                <label>Password</label>
+                <input class="input1"type="password" name="password" placeholder="type yuor password" >
+               <br>
+                <label>E-mail</label>
+                <input class="input1"type="e-mail" placeholder="type your E-Mail">
+                <label>Gender</label>
+                <select name="Gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option>Other</option>
+                </select>
+               <br>
+                <label>your birth day date</label>
+               <br>
+                <label>month</label>
+                <select name="moth">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option> 
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option> 
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                </select>
+                
+                <label>day</label>
+                <select name="Day">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option> 
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option> 
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option> 
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option> 
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option> 
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                </select>
+               <br>
+               <br>
+                <label>year</label>
+                <input type="number" class="input1" name="year" placeholder="year" maxlength="4">
+                <!--<input type="checkbox">
+                <label>remmeber me</label>
+                <input class="input1"type="submit" value="sign in">
+                <input class="input1"type="reset" value="reset all data"> 
+                <center><input type="button" value="say hello "onclick="say hello()"></center>-->
+            </fieldset>
+               
+            <fieldset><legend class="legend1">choose your favourites</legend>
+                <label class="h">your favourite browser</label>
+               <br> 
+                <input type="radio" name="browser">Google Chrome<br>
+                <input type="radio" name="browser">Mozilla Firefox<br>
+                <input type="radio" name="browser">Opera<br>
+               <hr><hr> 
+                <label class="h">your programming field</label>
+               <br> 
+                <input type="checkbox" name="programming field">Web Development <br>
+                <input type="checkbox" name="programming field">Android Development<br>
+                <input type="checkbox" name="programming field">OS DEvelopment<br>
+                <input type="checkbox" name="programming field">machines programming<br>
+                <input type="checkbox" name="programming field">Robots&andustrial itellegance<br>              
+                <input type="checkbox" name="programming field">Security    <br>               
+               <hr><hr>
+                <label class="h">your favourite operating system</label>
+               <br> 
+                <input type="checkbox" name="os">Apple Macintosh <br>
+                <input type="checkbox" name="os">Linux<br>
+                <input type="checkbox" name="os">windows<br>
+            </fieldset>
+            
+            <!--<fieldset><legend class="legend1">if you wanna to join us</legend>
+                <label>upload your CV</label>
+                <input type="file" >
+                <center><input class="input2" type="button" value=" Send " onclick="cv"></center>
+            </fieldset>-->
+            
+            <fieldset><legend class="legend1">Introduce Your Self</legend>
+                <p class="notice1">you can attachmet images&documents</p>
+                <!--<h3 class="message">About Your Self:-</h3>-->
+                <textarea> </textarea>
+               <br>
+                <input type="file" value="Attachments">
+               <br>
+                <center><input class="input1" type="submit" value=" Send Your Data " onclick="send()"></center> 
+            </fieldset>
+                <!--<input type="image" src="" hight="100" width="100">-->                
+            </form>    
+        </body>
+    </html>
